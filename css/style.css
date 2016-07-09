@@ -1,0 +1,36 @@
+
+* {
+	box-sizing: border-box;
+}
+
+#header-nav {
+	background-color: #f6b419;
+	border-radius: 0;
+	border: 0;	
+}
+
+li:nth-child(1) {
+	border-bottom: 1px solid white;
+}
+
+li:nth-child(2) {
+	border-bottom: 1px solid white;
+}
+
+div.row div {
+	background-color: #939090;
+	border: 10px solid white;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header {
+	border-color: #939090;
+}
+
+.navbar-header button.navbar-toggle {
+	clear: both;
+}
+
+.navbar-brand h1 {
+	margin-top: -5px;
+	font-size: 1.6em;
+}
