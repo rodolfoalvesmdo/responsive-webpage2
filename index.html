@@ -7,7 +7,10 @@
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<title>Module 3 Assignment</title>
 	</head>
-<body>
+
+<!-- data-toggle="collapse" data-target=".navbar-collapse.in" make the navbar mobile button close when clicked anywhere on the page-->
+
+<body data-toggle="collapse" data-target=".navbar-collapse.in">
 
 <header>
 	<nav id="header-nav" class="navbar navbar-default">
@@ -22,11 +25,13 @@
 				<a class="navbar-brand" href="index.html"><h1>Food, LLC</h1></a>
 			</div> <!-- navbar-header -->
 
+			<!-- content of the navbar mobile button -->
 			<div class="collapse navbar-collapse" id="collapsable-nav">
 				<ul class="nav navbar-nav navbar-right hidden-sm hidden-md hidden-lg">
-					<li class="text-center"><a href="#chicken"><span>Chicken</span></a></li>
-					<li class="text-center"><a href="#beef"><span>Beef</span></a></li>
-					<li class="text-center"><a href="#sushi"><span>Sushi</span></a></li>
+					<!-- data-toggle="collapse" data-target=".navbar-collapse.in" make the navbar mobile button close when clicked in any of the links-->
+					<li class="text-center" data-toggle="collapse" data-target=".navbar-collapse.in"><a href="#chicken"><span>Chicken</span></a></li>
+					<li class="text-center" data-toggle="collapse" data-target=".navbar-collapse.in"><a href="#beef"><span>Beef</span></a></li>
+					<li class="text-center" data-toggle="collapse" data-target=".navbar-collapse.in"><a href="#sushi"><span>Sushi</span></a></li>
 				</ul>
 			</div> <!-- content-collapsable -->
 		</div> <!-- nav/container -->
@@ -58,5 +63,6 @@
 	<!-- jQuery -->
 	<script src="js/jquery-2.1.4.min.js"></script>
 	<script src="js/bootstrap.min.js"></script>	
+	<script src="js/script.js"></script>
 </body>
 </html>
